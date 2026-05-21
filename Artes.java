@@ -17,6 +17,14 @@ public class Artes {
                 "                                `'                            '-._|\n");
 
     }
+
+    public void arteTurno(){
+        System.out.println("                                __                   \n" +
+                "          ___  ___ _  _____    / /___ _________  ___ \n" +
+                "         / _ \\/ _ \\ |/ / _ \\  / __/ // / __/ _ \\/ _ \\\n" +
+                "        /_//_/\\___/___/\\___/  \\__/\\_,_/_/ /_//_/\\___/\n" +
+                "                                                     ");
+    }
     public void arteGanhou(){
         System.out.println
                 ("  _   __         //|                  __             __\n" +
