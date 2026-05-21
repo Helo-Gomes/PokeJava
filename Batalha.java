@@ -83,11 +83,11 @@ public class Batalha {
     }
 
     public void loopTurno() {
-        //mudar para ascii
-        System.out.println("   A GRANDE BATALHA COMEÇA!   ");
+        System.out.println("____________________________________________________");
+        System.out.println("               A GRANDE BATALHA COMEÇA!   ");
         while(jogador.getPokemonEscolhido().estaVivo() && rival.getPokemonEscolhido().estaVivo()){
             //mudar para ascii
-            System.out.println("-----   NOVO TURNO!   -----");
+            arte.arteTurno();
             mostrarStats();
             try{
                 jogador.getPokemonEscolhido().aplicarEfeitoStatus();
