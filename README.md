@@ -28,6 +28,8 @@ A interface `Item` define o comportamento de todos os itens da bolsa. Quatro cla
 **Batalha**
 A classe `Batalha` orquestra todo o jogo. Ela gerencia o fluxo de turnos, o menu de ações do jogador, a inteligência artificial do rival e o cálculo de vantagem de tipo — onde Fogo vence Planta, Planta vence Água e Água vence Fogo, aplicando um multiplicador de 1.5x no dano. O rival age de forma aleatória, podendo atacar, usar ataque especial ou se defender a cada turno.
 
+<img width="641" height="952" alt="image" src="https://github.com/user-attachments/assets/e9a1e13d-b56a-4563-833c-769a44c0cb67" />
+
 ---
 
 ## Fluxo do Jogo
